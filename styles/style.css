@@ -18,7 +18,6 @@ html {
   background-color: #1b1919;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
-  background-color: #1b1919;
 }
 
 h1,
@@ -53,8 +52,12 @@ ol {
 
 .result__video-container {
   position: relative;
+  width: 711px;
+  height: 386px;
+  margin-bottom: 16px;
+  /* position: relative;
   inline-size: 711px;
-  margin: 0 0 16px;
+  margin: 0 0 16px; */
 }
 
 .result__video {
@@ -156,6 +159,9 @@ ol {
   border: 1px solid #FFF;
   inline-size: 19px;
   block-size: 19px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -164,7 +170,6 @@ ol {
   background-color: #FFF;
   inline-size: 15px;
   block-size: 15px;
-  margin: auto; 
 }
 
 .button {
@@ -189,7 +194,7 @@ ol {
 }
 
 .button:focus {
-  outline: none;
+  outline: 0;
 }
 
 .button:focus-visible {
@@ -269,7 +274,6 @@ ol {
   padding: 2px 2px 5px;
   color: #FFF;
   font-family: Oswald,sans-serif;
-  font-weight: 700;;
   font-weight: 700;
   font-size: 30px;
   line-height: 1;

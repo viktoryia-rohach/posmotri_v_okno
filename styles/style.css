@@ -155,7 +155,6 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  display: block;
   border: 1px solid #FFF;
   inline-size: 19px;
   block-size: 19px;
@@ -236,7 +235,7 @@ ol {
 }
 
 .content__list-item:not(:last-child) {
-  margin: 0 0 34px;
+  margin: 0 0 30px;
 }
 
 .content__card-link {

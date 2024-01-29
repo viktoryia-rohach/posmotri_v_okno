@@ -225,6 +225,7 @@ ol {
   overflow: auto;
   block-size: 298px;
   scrollbar-width: none;
+  padding: 0 2px 2px 2px;
 }
 
 .content__list::-webkit-scrollbar {
@@ -233,7 +234,6 @@ ol {
 
 .content__list-item:not(:last-child) {
   margin: 0 0 34px;
-  padding: 0 2px 2px 2px;
 }
 
 .content__card-link {
